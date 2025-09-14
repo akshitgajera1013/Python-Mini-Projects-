@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-key = "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"
+key = "api_key"
 
 messages = []
 
@@ -34,4 +34,5 @@ if __name__ == "__main__":
     while True:
         user_question = input()
         print(f"User: {user_question}")
+
         completion(user_question)
